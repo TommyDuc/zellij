@@ -293,7 +293,7 @@ default_mode "locked"
 //   - true (default)
 //   - false
 // 
-// mouse_mode false
+   mouse_mode true
  
 // Toggle having pane frames around the panes
 // Options:
@@ -317,7 +317,7 @@ default_mode "locked"
 //   - detach (Default)
 //   - quit
 // 
-// on_force_close "quit"
+   on_force_close "detach"
  
 // Configure the scroll back buffer size
 // This is the number of lines zellij stores for each pane in the scroll back
@@ -334,11 +334,10 @@ default_mode "locked"
 // that will be used by default if this option is not set.
 // Examples:
 //
-// copy_command "xclip -selection clipboard" // x11
+   copy_command "xclip -selection clipboard" // x11
 // copy_command "wl-copy"                    // wayland
 // copy_command "pbcopy"                     // osx
 // 
-   copy_command "xclip -selection clipboard"
  
 // Choose the destination for copied text
 // Allows using the primary selection buffer (on x11/wayland) instead of the system clipboard.
@@ -347,7 +346,7 @@ default_mode "locked"
 //   - system (default)
 //   - primary
 // 
-   copy_clipboard "primary"
+   copy_clipboard "system"
  
 // Enable automatic copying (and clearing) of selection when releasing mouse
 // Default: true
@@ -414,7 +413,7 @@ default_mode "locked"
 // (Requires restart)
 // Default: false
 // 
-   disable_session_metadata true
+   disable_session_metadata false
  
 // Enable or disable support for the enhanced Kitty Keyboard Protocol (the host terminal must also support it)
 // (Requires restart)
@@ -425,7 +424,7 @@ default_mode "locked"
 // Whether to stack panes when resizing beyond a certain size
 // Default: true
 // 
-   stacked_resize true
+   stacked_resize false
  
 // Whether to show tips on startup
 // Default: true
