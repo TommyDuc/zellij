@@ -276,7 +276,7 @@ default_mode "locked"
 // The folder in which Zellij will look for themes
 // (Requires restart)
 // 
-theme_dir "~/.config/zellij/themes"
+theme_dir "/home/tommy/.config/zellij/themes"
  
 // Toggle enabling the mouse mode.
 // On certain configurations, or terminals this could
