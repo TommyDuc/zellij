@@ -142,6 +142,7 @@ keybinds clear-defaults=true {
         bind "Alt [" { PreviousSwapLayout; }
         bind "Alt ]" { NextSwapLayout; }
         bind "Alt t" { ToggleFloatingPanes; }
+        bind "Alt f" { ToggleFocusFullscreen; }
         bind "Alt h" { MoveFocus "left"; }
         bind "Alt i" { MoveTab "left"; }
         bind "Alt j" { MoveFocus "down"; }
