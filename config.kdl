@@ -85,9 +85,7 @@ keybinds clear-defaults=true {
         bind "k" { MovePane "up"; }
         bind "l" { MovePane "right"; }
         bind "m" { SwitchToMode "normal"; }
-        bind "n" { MovePane; }
         bind "p" { MovePaneBackwards; }
-        bind "tab" { MovePane; }
     }
     scroll {
         bind "e" { EditScrollback; SwitchToMode "locked"; }
