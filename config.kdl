@@ -26,7 +26,6 @@ keybinds clear-defaults=true {
         bind "w" { ToggleFloatingPanes; SwitchToMode "locked"; }
         bind "x" { CloseFocus; SwitchToMode "locked"; }
         bind "z" { TogglePaneFrames; SwitchToMode "locked"; }
-        bind "tab" { SwitchFocus; }
     }
     tab {
         bind "left" { GoToPreviousTab; }
