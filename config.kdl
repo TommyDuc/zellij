@@ -392,6 +392,10 @@ theme_dir "/home/tommy/.config/zellij/themes"
 //
 serialize_pane_viewport true
 
+// Replace every discovered pane command with nothing, so resurrected
+// panes come back as a plain shell instead of re-running the command.
+post_command_discovery_hook "true"
+
 // Scrollback lines to serialize along with the pane viewport when serializing sessions, 0
 // defaults to the scrollback size. If this number is higher than the scrollback size, it will
 // also default to the scrollback size. This does nothing if `serialize_pane_viewport` is not true.
